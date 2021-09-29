@@ -10,4 +10,9 @@ public class GenericController {
 	public String helloDevOps() {
 		return "Hi Devops =)";
 	}
+
+	@GetMapping("anothertest")
+	public String anotherTest(){
+		return "Did this update?";
+	}
 }
