@@ -8,6 +8,6 @@ public class GenericController {
 
 	@GetMapping("hi")
 	public String helloDevOps() {
-		return "Hi Devops ==))";
+		return "Hi Devops =)";
 	}
 }
